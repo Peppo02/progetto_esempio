@@ -1,0 +1,114 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+.wrapper {
+  width: 400px;
+  height: auto;
+  background-color: #212121;
+  color: white;
+  border: 10px solid black;
+  border-radius: 50px;
+}
+
+wrapper header {
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+.wrapper header h1 {
+  font-size: 2.3rem;
+}
+
+.wrapper header h2 {
+  margin-top: 15px;
+  font-size: 1.9rem;
+}
+
+section {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+section span {
+  font-weight: bold;
+  color: white;
+}
+
+section form {
+  display: inline-block;
+  text-align: left;
+}
+
+section form input {
+  padding: 16px;
+  border-radius: 7px;
+  border: 0px;
+  background: rgba(255, 255, 255, 0.2);
+  display: block;
+  margin: 15px;
+  width: 300px;
+  color: white;
+  font-size: 18px;
+  height: 50px;
+}
+
+section form input:focus {
+  outline-color: rgba(0, 0, 0, 0);
+  background: rgba(255, 255, 255, 0.95);
+  color: #e74c3c;
+}
+
+.button {
+  border: 0px;
+  background: #e74c3c;
+  border-radius: 7px;
+  padding: 5px;
+  height: 50px;
+  width: 300px;
+  color: white;
+  font-size: 22px;
+}
+
+.check {
+  text-align: center;
+}
+
+.check a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.check a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.hidden {
+  visibility: hidden;
+}

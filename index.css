@@ -1,0 +1,10 @@
+body {
+  background-image: url("../images/index.jpg");
+  text-align: center;
+}
+
+.wrapper {
+  padding: 20px 10px;
+  display: inline-block;
+  margin-top: 5%;
+}
